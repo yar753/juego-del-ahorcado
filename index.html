@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ahorcado</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="inicio" >
+        <h4 class="h4">Juego del Ahorcado</h4>
+        <button id="iniciar">Iniciar Juego</button>
+      </div>
+
+
+  <div class="contenedor">
+    <h1>Ahorcado</h1>
+    <p id="palabra"></p>
+    <p id="intentos"></p>
+    <p id="tiempo"></p>
+    <button id="volver" style="display: none;">Volver a Jugar</button>
+  </div>
+  <div class="contenedor-juego" style="display: none;">
+    <!-- Guiones de la palabra oculta -->
+    <p id="palabraOculta"></p>
+    <!-- Entrada para ingresar letras con botón de evaluar -->
+    <input id="letra" type="text" placeholder="Escriba una letra" maxlength="1" disabled>
+    <button id="evaluarLetra">Evaluar Letra</button>
+  </div>
+  <!-- Imagen del ahorcado centrada en la parte inferior -->
+  <div class="imagen-ahorcado" style="display: none;">
+    <img id="imagenAhorcado6" src="img/ahorcado_6.jpg" alt="Ahorcado" style="display: none;">
+    <img id="imagenAhorcado5" src="img/ahorcado_5.jpg" alt="Ahorcado" style="display: none;">
+    <img id="imagenAhorcado4" src="img/ahorcado_4.jpg" alt="Ahorcado" style="display: none;">
+    <img id="imagenAhorcado3" src="img/ahorcado_3.jpg" alt="Ahorcado" style="display: none;">
+    <img id="imagenAhorcado2" src="img/ahorcado_2.jpg" alt="Ahorcado" style="display: none;">
+    <img id="imagenAhorcado1" src="img/ahorcado_1.jpg" alt="Ahorcado" style="display: none;">
+    
+    <img id="imagenAhorcado01" src="img/ahorcado_01.jpg" alt="Ahorcado" style="display: none;">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+    
+
+
+
