@@ -3,7 +3,7 @@ body {
   
   display: flex;
   justify-content: space-between;
-  background-image: url(body.jpg);
+  background: url(body.jpg);
 }
 
 .contenedor, .contenedor-juego {
